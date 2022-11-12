@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_span="4"
-            android:background="@color/orange_cream"
+            android:background="@drawable/rounded_corners"
             android:gravity="right"
             android:text="@string/zero"
             android:textSize="70sp" />
