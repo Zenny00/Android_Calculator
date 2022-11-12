@@ -27,6 +27,7 @@
             android:background="@drawable/rounded_corners"
             android:gravity="right"
             android:text="@string/zero"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="70sp" />
     </TableRow>
 
@@ -48,7 +49,9 @@
             android:contentDescription="@string/ac"
             android:minHeight="80dip"
             android:onClick="goAC"
-            android:text="@string/ac" />
+            android:text="@string/ac"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button2"
@@ -61,7 +64,9 @@
             android:backgroundTint="@color/gray"
             android:contentDescription="@string/percent"
             android:onClick="goOperator"
-            android:text="@string/percent" />
+            android:text="@string/percent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button3"
@@ -74,7 +79,9 @@
             android:backgroundTint="@color/gray"
             android:contentDescription="@string/div"
             android:onClick="goOperator"
-            android:text="@string/div" />
+            android:text="@string/div"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
     </TableRow>
 
     <!-- Second row of buttons -->
@@ -95,7 +102,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/seven" />
+            android:text="@string/seven"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button5"
@@ -108,7 +117,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/eight" />
+            android:text="@string/eight"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button6"
@@ -121,7 +132,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/nine" />
+            android:text="@string/nine"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button7"
@@ -134,7 +147,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperator"
-            android:text="@string/mult" />
+            android:text="@string/mult"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
     </TableRow>
 
     <!-- Third row of buttons -->
@@ -155,7 +170,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/four" />
+            android:text="@string/four"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button9"
@@ -168,7 +185,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/five" />
+            android:text="@string/five"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button10"
@@ -181,7 +200,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/six" />
+            android:text="@string/six"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button11"
@@ -194,7 +215,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperator"
-            android:text="@string/subtract" />
+            android:text="@string/subtract"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
     </TableRow>
 
     <!-- Fourth row of buttons -->
@@ -215,7 +238,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/one" />
+            android:text="@string/one"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button13"
@@ -228,7 +253,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/two" />
+            android:text="@string/two"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button14"
@@ -241,7 +268,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/three" />
+            android:text="@string/three"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button15"
@@ -254,7 +283,9 @@
             android:layout_marginRight="5dp"
             android:backgroundTint="@color/gray"
             android:onClick="goOperator"
-            android:text="@string/add" />
+            android:text="@string/add"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
     </TableRow>
 
     <!-- Fifth row of buttons -->
@@ -275,7 +306,9 @@
             android:layout_span="2"
             android:backgroundTint="@color/gray"
             android:onClick="goOperand"
-            android:text="@string/zero" />
+            android:text="@string/zero"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
 
         <Button
             android:id="@+id/button17"
@@ -288,7 +321,9 @@
             android:layout_span="2"
             android:backgroundTint="@color/dusk_blue"
             android:onClick="goCompute"
-            android:text="@string/equal" />
+            android:text="@string/equal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"/>
     </TableRow>
 
 </TableLayout>
